@@ -25,6 +25,7 @@ Dependency Libraries -
 praw, sklearn, nltk, pandas, datetime, joblib, csv, bs4, lxml, flask, wtf-forms
 
 Directory Structure:
-DataAcquisition.py, DataProcessing.py and Prediction.py perform task 1, 2, and 3 mentioned above respectively. FlairData.csv has all the data features mentioned before. FlairData-Copy.csv omits date created and is used for further processing. NB.joblib and LR.joblib are trainded data models of Naive-Bayes and Logistic Regression. routes.py is a flask application that inputs url of reddit post and returns predicted flair. Templates folder contains html pages of flask website
+DataAcquisition.py, DataProcessing.py and Prediction.py perform task 1, 2, and 3 mentioned above respectively. FlairData.csv has all the data features mentioned before. FlairData-Copy.csv omits date created and is used for further processing. NB.joblib and LR.joblib are trainded data models of Naive-Bayes and Logistic Regression. 
+routes.py is a flask application that inputs url of reddit post and returns predicted flair. Templates folder contains html pages of flask website.
 
 
