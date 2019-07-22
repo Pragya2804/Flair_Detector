@@ -8,3 +8,15 @@ Cleaning - nltk library is used to clean data using https://medium.com/@paritosh
 Tasks followed - lowercase test, tokenization, removal of stopping words and punctuation. Data is stored as a csv file
 
 Data Processing:
+Data is converted into numerical form using CounterVectorization(). scikit learn's inbuilt python modules for Naive Bayes, Logistic regression and Random Forest are trained on 80 percent of data acquired and tested on rest 20 percent. Sources used #using https://www.datacamp.com/community/tutorials/naive-bayes-scikit-learn and https://www.dataquest.io/blog/sci-kit-learn-tutorial/
+using https://towardsdatascience.com/logistic-regression-using-python-sklearn-numpy-mnist-handwriting-recognition-matplotlib-a6b31e2b166a
+using https://towardsdatascience.com/multi-class-text-classification-model-comparison-and-selection-5eb066197568
+Results:
+  Naive Bayes - 0.52
+  Logistic Regression - 0.72
+  Random Forrest - 0.62
+ Model obtained by Logisctic Regression is stored as joblib file for predicting flairs.
+ 
+Prediction:
+Using 
+
