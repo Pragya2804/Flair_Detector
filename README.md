@@ -18,7 +18,10 @@ Results:
  Model obtained by Logisctic Regression is stored as joblib file for predicting flairs.
  
 Prediction:
-User submits URL of reddit post in the form. Logistic Regression model stored as LR.joblib is used to predict flair of the scrapped data from the entered url
+User submits URL of reddit post in the form. Logistic Regression model stored as LR.joblib is used to predict flair of the scrapped data from the entered url.
+
+How to run?
+Enter praw credentials in DataAcquisition.py and Prediction.py. Run routes.py on the termical. In localhost:5000/ submit the url of reddit post.
 
 
 
